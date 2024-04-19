@@ -24,6 +24,10 @@ void bubble(int *arr, int size){
         }
     }
 }
+
+void selection(int *arr, int size){
+    
+}
 void printArray(int * arr, int size){
     for(int i=0; i<size; i++){
         printf("%d ", arr[i]);
@@ -37,13 +41,20 @@ int main(){
     printf("Size of this Array: %d\n", size);
     printArray(arr, size);
 
+    // printf("\n");
+    // printf("Insertion Sort: \n");
+    // insertion(arr, size);
+    // printArray(arr, size);
+
+
     printf("\n");
-    printf("Insertion Sort: \n");
+    printf("Bubble Sort: \n");
     insertion(arr, size);
     printArray(arr, size);
 
 
-    
+
+
 
 
 }
